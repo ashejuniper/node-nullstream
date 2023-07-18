@@ -11,6 +11,3 @@ export function createReadStream(options) {
 export function createWriteStream(options) {
     return new WritableNullStream(options);
 }
-
-const writeNull = createWriteStream();
-const readNull = createReadStream();
