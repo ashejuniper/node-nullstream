@@ -1,5 +1,5 @@
 {
-  "name": "null-stream",
+  "name": "nullstream",
   "version": "1.0.0",
   "description": "/dev/null stream",
   "type": "module",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ashelynne-juniper/node-null-stream.git"
+    "url": "https://github.com/ashelynne-juniper/node-nullstream.git"
   },
   "keywords": [
     "/dev/null",
@@ -25,7 +25,7 @@
   "author": "",
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/ashelynne-juniper/node-null-stream/issues"
+    "url": "https://github.com/ashelynne-juniper/node-nullstream/issues"
   },
-  "homepage": "https://github.com/ashelynne-juniper/node-null-stream"
+  "homepage": "https://github.com/ashelynne-juniper/node-nullstream"
 }
