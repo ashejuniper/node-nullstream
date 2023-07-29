@@ -14,4 +14,4 @@ class WritableNullStream extends Writable {
     }
 }
 
-module.exports = WritableNullStream;
+module.exports = { WritableNullStream };

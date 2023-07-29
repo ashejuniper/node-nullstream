@@ -12,4 +12,4 @@ class ReadableNullStream extends Readable {
     }
 }
 
-module.exports = ReadableNullStream;
+module.exports = { ReadableNullStream };
