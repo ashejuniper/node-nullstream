@@ -1,6 +1,6 @@
-import { Readable } from 'stream';
+const { Readable } = require('stream');
 
-export class ReadableNullStream extends Readable {
+class ReadableNullStream extends Readable {
     constructor(options) {
         super(options);
     }
@@ -11,3 +11,5 @@ export class ReadableNullStream extends Readable {
         }
     }
 }
+
+module.exports = ReadableNullStream;

@@ -1,6 +1,6 @@
-import { Writable } from 'stream';
+const { Writable } = require('stream');
 
-export class WritableNullStream extends Writable {
+class WritableNullStream extends Writable {
     constructor(options) {
         super(options);
     }
@@ -13,3 +13,5 @@ export class WritableNullStream extends Writable {
         this.write(null);
     }
 }
+
+module.exports = WritableNullStream;
